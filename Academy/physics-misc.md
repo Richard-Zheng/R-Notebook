@@ -81,3 +81,30 @@
 - 定义：运动于电磁场的带电粒子所感受到的作用力
 - 公式：$\mathbf{F} = q (\mathbf{E} +\mathbf{v} \times \mathbf{B})$
   - 其中，$\mathbf {F} $是洛伦兹力，$q$是带电粒子的电荷量，$\mathbf {E} $是电场强度，$\mathbf {v} $是带电粒子的速度，$\mathbf {B} $是磁感应强度。
+- 意义：在电磁能和机械能之间建立桥梁，表明它们互相转换的细节。
+- 高中教材弱化版本：$\mathbf{F} = q \mathbf{v} \times \mathbf{B}$
+
+#### 动生电动势
+
+![Moving_Conductor_In_Magnetic_Field.jpg](https://i.loli.net/2020/07/02/5Zt7WsKA6TDUxv8.jpg)
+
+上图中，长度为 $L$ 的细直导线以速度 $v$ 向右匀速移动于磁场 $\mathbf {B} $ 。磁场线由屏幕外指向屏幕内。导线内的电荷 $q$ 会感受到洛仑兹力
+$$
+\mathbf{F}_{lorentz} =q\mathbf{v}\times\mathbf{B}。
+$$
+在这里，洛伦兹力也是磁场力。因为这磁场力的作用，正电荷会往导线的上端移动，负电荷会往导线的下端移动。在达到平衡状态时，电场力与洛仑兹力等大反向，所以电场为
+$$
+\mathbf{E} = - \mathbf{v}\times\mathbf{B}。
+$$
+电动势定义为造成开路电路的两个终端的电势差，对于每单位电荷所需做的功。所以，动生电动势 ${\mathcal {E}}$为
+$$
+\mathcal{E} =\int_L  \frac{\mathbf{F_{lorentz}}}{q}\cdot d\boldsymbol{\ell} =vBL。
+$$
+
+
+### 电动势
+
+- **电动势**（英语：**electromotive force**，缩写为**EMF**，或以 $\mathcal {E}$ 表示）表征一些电路元件**供应电能的特性**。这些电路元件称为“电动势源”。
+- 电化电池、太阳能电池、燃料电池、热电装置、发电机等等，都是电动势源。
+- 定义式： ${\mathcal  {E}}={\frac  {W}{Q}}$（单位电荷携带的能量）
+- 通常，这能量是分离正负电荷所做的功，由于这正负电荷被分离至元件的两端，会出现对应电场与电势差。
